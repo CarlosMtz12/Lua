@@ -1,0 +1,76 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="pagina.css">
+        <title>Gestión de Almacén</title>
+       
+    </head>
+    <body>
+        <h1>Gestión de Almacén</h1>
+        
+        
+
+        <table>
+            <caption>Almacen</caption>
+            <tr>
+                <th>ID Producto</th>
+                <th>Nombre Producto</th>
+                <th>Cantidad Mínima</th>
+                <th>Cantidad Máxima</th>
+                <th>Stock</th>
+                <th>Acciones</th>
+            </tr>
+            <!-- Aquí debes llenar la tabla con los datos de tu base de datos -->
+        </table>
+        
+        <h2>Editar Cantidad Mínima y Máxima</h2>
+        <form id="editForm">
+            <label for="min">Cantidad Mínima:</label>
+            <input type="number" id="min" name="min" required>
+            <label for="max">Cantidad Máxima:</label>
+            <input type="number" id="max" name="max" required>
+            <input type="submit" class="btn" value="Guardar">
+        </form>
+        
+        <h2>Compra y Venta de Productos</h2>
+        <form id="transactionForm">
+            <label for="transactionType">Selecciona una acción:</label>
+            <select id="transactionType" name="transactionType">
+                <option value="compra">Compra</option>
+                <option value="venta">Venta</option>
+            </select>
+            <label for="product">Producto:</label>
+            <select id="product" name="product">
+                <!-- Aquí debes llenar la lista de productos desde tu base de datos -->
+            </select>
+            <label for="quantity">Cantidad:</label>
+            <input type="number" id="quantity" name="quantity" required>
+            <input type="submit" class="btn" value="Realizar Transacción">
+        </form>
+
+
+      
+        <table>
+            <caption>Proveedor</caption>
+            <tr>
+                <th>ID Producto</th>
+                <th>Nombre</th>
+                <th>Direccion</th>
+                <th>Telefono</th>
+                
+            </tr>
+            <!-- Aquí debes llenar la tabla con los datos de tu base de datos -->
+        </table>
+        <script>
+            // Aquí debes agregar el código JavaScript para llenar la tabla y manejar las transacciones
+        </script>
+
+
+
+
+
+
+    </body>
+    </html>

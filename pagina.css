@@ -1,0 +1,83 @@
+* 
+
+
+{
+	box-sizing:border-box;
+	border:0.1rem solid black;
+}
+body{
+	font-family:Arial;
+	font-size:1rem;
+	text-shadow:0 0 #00000000;
+	background-color:#ffc388;
+	background-image: url('data:image/svg+xml,%3Csvg width="42" height="44" viewBox="0 0 42 44" xmlns="http://www.w3.org/2000/svg"%3E%3Cg id="Page-1" fill="none" fill-rule="evenodd"%3E%3Cg id="brick-wall" fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+	color: rgb(12, 12, 12);
+	border:none;
+}
+#bento-box-out{
+	background: #111;
+   
+}
+.bento-box-out{
+	top:1rem;
+	height:95vh;
+	width:98.5%;
+	float:center;
+	position:absolute;
+    
+}
+.cover{
+	background:#8888ff3f;
+	border:none;
+}
+.in{
+	height:20vh;
+	margin:.5%;
+	display:inline-block;
+	position:relative;
+	background-color:mix(grey, black, black);
+	border-collapse:collapse;
+}
+.top{
+	border-radius:1rem 1rem 0 0;
+}
+.bottom{
+	border-radius:0 0 1rem 1rem;
+}
+.small{
+	width:38%;
+}
+.large{
+	width:57.59999999999%;
+}
+html{
+	border:none
+}
+ 
+/* Estilos CSS para el diseño de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #45a049;
+}
